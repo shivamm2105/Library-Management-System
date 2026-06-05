@@ -1,0 +1,1478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gyan Library - Gateway to Knowledge, Learning & Success</title>
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Gyan Library is a premium, peaceful, and modern learning space designed for students, readers, and competitive exam aspirants. Open 24/7 with digital library access, silent zones, and free Wi-Fi.">
+    <meta name="keywords" content="Gyan Library, study space, library, competitive exams, digital library, silent study, Delhi library, reading hall">
+    <meta name="author" content="Gyan Library">
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Gyan Library - Your Gateway to Knowledge">
+    <meta property="og:description" content="Access thousands of academic, competitive exam, and self-development books in a modern, peaceful, air-conditioned study space.">
+    <meta property="og:image" content="Gemini_Generated_Image_c02xxuc02xxuc02x.png">
+    <meta property="og:type" content="website">
+    
+    <!-- Google Font: Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Scroll Progress Indicator -->
+    <div id="scroll-progress"></div>
+
+    <!-- Header & Navigation -->
+    <header class="header" id="header">
+        <div class="container navbar-container">
+            <a href="#home" class="logo" id="logo">
+                <i class="fa-solid fa-book-open gold-text"></i> Gyan <span class="gold-text">Library</span>
+            </a>
+            
+            <!-- Desktop Menu -->
+            <nav class="nav-menu" id="nav-menu">
+                <ul>
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#details" class="nav-link">Details</a></li>
+                    <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                    <li><a href="#quiz-zone" class="nav-link">Quiz Zone</a></li>
+                    <li><a href="#books" class="nav-link">Books</a></li>
+                    <li><a href="#contact" class="nav-link">Contact Us</a></li>
+                    <li><a href="#signin" class="btn-signin" id="btn-signin-nav">Sign In</a></li>
+                </ul>
+            </nav>
+            
+            <!-- Mobile Menu Toggle Button (Hamburger) -->
+            <button class="hamburger-btn" id="hamburger-btn" aria-label="Toggle Navigation Menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation Drawer -->
+    <div class="mobile-drawer" id="mobile-drawer">
+        <button class="close-drawer-btn" id="close-drawer-btn" aria-label="Close Navigation Menu">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+        <ul class="mobile-drawer-links">
+            <li><a href="#home" class="drawer-link">Home</a></li>
+            <li><a href="#details" class="drawer-link">Details</a></li>
+            <li><a href="#gallery" class="drawer-link">Gallery</a></li>
+            <li><a href="#quiz-zone" class="drawer-link">Quiz Zone</a></li>
+            <li><a href="#books" class="drawer-link">Books</a></li>
+            <li><a href="#contact" class="drawer-link">Contact Us</a></li>
+            <li><a href="#signin" class="drawer-signin btn-signin" id="btn-signin-drawer">Sign In</a></li>
+        </ul>
+    </div>
+    <!-- Overlay for drawer -->
+    <div class="drawer-overlay" id="drawer-overlay"></div>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="home">
+        <!-- Background Image is set via CSS referencing Gemini_Generated_Image_c02xxuc02xxuc02x.png -->
+        <div class="hero-overlay"></div>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title reveal-fade">Welcome to <span class="gold-text-glow">Gyan Library</span></h1>
+                <h2 class="hero-subtitle reveal-fade-delay-1">Your Gateway to Knowledge, Learning & Success</h2>
+                <p class="hero-description reveal-fade-delay-2">
+                    Gyan Library is a peaceful and modern learning space designed for students, readers, and competitive exam aspirants. Access lots of books, digital resources, and a comfortable study environment.
+                </p>
+                <div class="hero-buttons reveal-fade-delay-3">
+                    <a href="#books" class="btn btn-primary">Explore Library</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Us</a>
+                </div>
+            </div>
+        </div>
+        <!-- Scroll Down Mouse Indicator -->
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <div class="arrow-container">
+                <span class="arrow"></span>
+                <span class="arrow"></span>
+            </div>
+        </div>
+    </section>
+
+    <main>
+        <!-- Section 2: Library Details / Features -->
+        <section class="features-section" id="details">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-tagline">Excellence in Learning</span>
+                    <h2 class="section-title">Why Choose Gyan Library?</h2>
+                    <div class="section-underline"></div>
+                </div>
+                
+                <div class="features-grid">
+                    <!-- Feature 1 -->
+                    <div class="feature-card reveal-slide-up">
+                        <div class="feature-icon-wrapper">
+                            <i class="fa-solid fa-clock"></i>
+                        </div>
+                        <h3 class="feature-card-title">24×7 Study Environment</h3>
+                        <p class="feature-card-description">Study at any hour that suits you. Our doors are open around the clock to support your learning journey.</p>
+                    </div>
+                    
+                    <!-- Feature 2 -->
+                    <div class="feature-card reveal-slide-up">
+                        <div class="feature-icon-wrapper">
+                            <i class="fa-solid fa-wifi"></i>
+                        </div>
+                        <h3 class="feature-card-title">High-Speed WiFi Access</h3>
+                        <p class="feature-card-description">Enjoy seamless connectivity with high-speed fiber internet throughout the library campus.</p>
+                    </div>
+                    
+                    <!-- Feature 3 -->
+                    <div class="feature-card reveal-slide-up">
+                        <div class="feature-icon-wrapper">
+                            <i class="fa-solid fa-snowflake"></i>
+                        </div>
+                        <h3 class="feature-card-title">Air Conditioned Hall</h3>
+                        <p class="feature-card-description">Stay comfortable and focused in our fully air-conditioned reading halls regardless of the weather.</p>
+                    </div>
+                    
+                    <!-- Feature 4 -->
+                    <div class="feature-card reveal-slide-up">
+                        <div class="feature-icon-wrapper">
+                            <i class="fa-solid fa-book-bookmark"></i>
+                        </div>
+                        <h3 class="feature-card-title">Academic Books</h3>
+                        <p class="feature-card-description">Access a vast catalog of textbooks, reference guides, and journals for all university curriculums.</p>
+                    </div>
+                    
+                    <!-- Feature 5 -->
+                    <div class="feature-card reveal-slide-up">
+                        <div class="feature-icon-wrapper">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                        </div>
+                        <h3 class="feature-card-title">Competitive Exams</h3>
+                        <p class="feature-card-description">Exhaustive study materials for UPSC, SSC, Banking, JEE, NEET, and other competitive examinations.</p>
+                    </div>
+                    
+                    <!-- Feature 6 -->
+                    <div class="feature-card reveal-slide-up">
+                        <div class="feature-icon-wrapper">
+                            <i class="fa-solid fa-laptop-code"></i>
+                        </div>
+                        <h3 class="feature-card-title">Digital Library Access</h3>
+                        <p class="feature-card-description">Access premium e-journals, e-books, database systems, and educational portals from our terminals.</p>
+                    </div>
+                    
+                    <!-- Feature 7 -->
+                    <div class="feature-card reveal-slide-up">
+                        <div class="feature-icon-wrapper">
+                            <i class="fa-solid fa-chair"></i>
+                        </div>
+                        <h3 class="feature-card-title">Comfortable Seating</h3>
+                        <p class="feature-card-description">Ergonomic chairs and spacious wooden desks designed for long hours of comfortable studying.</p>
+                    </div>
+                    
+                    <!-- Feature 8 -->
+                    <div class="feature-card reveal-slide-up">
+                        <div class="feature-icon-wrapper">
+                            <i class="fa-solid fa-volume-xmark"></i>
+                        </div>
+                        <h3 class="feature-card-title">Silent Study Zones</h3>
+                        <p class="feature-card-description">Strictly monitored pin-drop silence areas ensuring maximum focus and zero distractions.</p>
+                    </div>
+                    
+                    <!-- Feature 9 -->
+                    <div class="feature-card reveal-slide-up">
+                        <div class="feature-icon-wrapper">
+                            <i class="fa-solid fa-shield-halved"></i>
+                        </div>
+                        <h3 class="feature-card-title">CCTV Security</h3>
+                        <p class="feature-card-description">24/7 CCTV surveillance and security guards on-site, ensuring a safe study space for everyone.</p>
+                    </div>
+                    
+                    <!-- Feature 10 -->
+                    <div class="feature-card reveal-slide-up">
+                        <div class="feature-icon-wrapper">
+                            <i class="fa-solid fa-key"></i>
+                        </div>
+                        <h3 class="feature-card-title">Neet & Clean Washrooms</h3>
+                        <p class="feature-card-description">Regularly maintained and sanitized washrooms for a hygienic study environment.</p>
+                    </div>
+                    
+                    <!-- Feature 11 -->
+                    <div class="feature-card reveal-slide-up">
+                        <div class="feature-icon-wrapper">
+                            <i class="fa-solid fa-newspaper"></i>
+                        </div>
+                        <h3 class="feature-card-title">Daily Newspapers</h3>
+                        <p class="feature-card-description">Stay updated with leading national and international newspapers, magazines, and periodicals.</p>
+                    </div>
+                    
+                    <!-- Feature 12 -->
+                    <div class="feature-card reveal-slide-up">
+                        <div class="feature-icon-wrapper">
+                            <i class="fa-solid fa-cubes"></i>
+                        </div>
+                        <h3 class="feature-card-title">Dedicated Study Cabins</h3>
+                        <p class="feature-card-description">Individual semi-private cubicles providing distraction-free customized workspace styling.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section: Library Gallery -->
+        <section class="gallery-section" id="gallery">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-tagline">Visual Tour</span>
+                    <h2 class="section-title">Library Gallery</h2>
+                    <div class="section-underline"></div>
+                    <p class="gallery-subtitle reveal-fade">Take a look inside Gyan Library and explore our study environment, facilities, and learning spaces.</p>
+                </div>
+
+                <!-- Gallery Grid -->
+                <div class="gallery-grid" id="gallery-grid">
+
+                    <!-- Gallery Item 1 -->
+                    <div class="gallery-item reveal-slide-up" data-index="0">
+                        <div class="gallery-img-wrapper">
+                            <img
+                                src="images/20251015_062238.jpg.jpeg"
+                                alt="Gyan Library - Study Hall Interior View"
+                                loading="lazy"
+                                class="gallery-img"
+                            >
+                            <div class="gallery-overlay">
+                                <div class="gallery-overlay-content">
+                                    <i class="fa-solid fa-magnifying-glass-plus"></i>
+                                    <span>View Full</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gallery-caption">
+                            <i class="fa-solid fa-image"></i>
+                            <span>Study Hall Interior</span>
+                        </div>
+                    </div>
+
+                    <!-- Gallery Item 2 -->
+                    <div class="gallery-item reveal-slide-up" data-index="1">
+                        <div class="gallery-img-wrapper">
+                            <img
+                                src="images/20251015_062248.jpg.jpeg"
+                                alt="Gyan Library - Reading Area Overview"
+                                loading="lazy"
+                                class="gallery-img"
+                            >
+                            <div class="gallery-overlay">
+                                <div class="gallery-overlay-content">
+                                    <i class="fa-solid fa-magnifying-glass-plus"></i>
+                                    <span>View Full</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gallery-caption">
+                            <i class="fa-solid fa-image"></i>
+                            <span>Reading Area Overview</span>
+                        </div>
+                    </div>
+
+                    <!-- Gallery Item 3 -->
+                    <div class="gallery-item reveal-slide-up" data-index="2">
+                        <div class="gallery-img-wrapper">
+                            <img
+                                src="images/20251015_062253.jpg.jpeg"
+                                alt="Gyan Library - Dedicated Study Cabins"
+                                loading="lazy"
+                                class="gallery-img"
+                            >
+                            <div class="gallery-overlay">
+                                <div class="gallery-overlay-content">
+                                    <i class="fa-solid fa-magnifying-glass-plus"></i>
+                                    <span>View Full</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gallery-caption">
+                            <i class="fa-solid fa-image"></i>
+                            <span>Dedicated Study Cabins</span>
+                        </div>
+                    </div>
+
+                    <!-- Gallery Item 4 -->
+                    <div class="gallery-item reveal-slide-up" data-index="3">
+                        <div class="gallery-img-wrapper">
+                            <img
+                                src="images/20251015_062401.jpg.jpeg"
+                                alt="Gyan Library - Book Collection Shelves"
+                                loading="lazy"
+                                class="gallery-img"
+                            >
+                            <div class="gallery-overlay">
+                                <div class="gallery-overlay-content">
+                                    <i class="fa-solid fa-magnifying-glass-plus"></i>
+                                    <span>View Full</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gallery-caption">
+                            <i class="fa-solid fa-image"></i>
+                            <span>Book Collection Shelves</span>
+                        </div>
+                    </div>
+
+                    <!-- Gallery Item 5 -->
+                    <div class="gallery-item reveal-slide-up" data-index="4">
+                        <div class="gallery-img-wrapper">
+                            <img
+                                src="images/20251015_062413.jpg.jpeg"
+                                alt="Gyan Library - Learning Spaces & Facilities"
+                                loading="lazy"
+                                class="gallery-img"
+                            >
+                            <div class="gallery-overlay">
+                                <div class="gallery-overlay-content">
+                                    <i class="fa-solid fa-magnifying-glass-plus"></i>
+                                    <span>View Full</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gallery-caption">
+                            <i class="fa-solid fa-image"></i>
+                            <span>Learning Spaces & Facilities</span>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- End Gallery Grid -->
+
+            </div>
+        </section>
+        <!-- End Gallery Section -->
+
+        <!-- Section: Daily Quiz & Practice Zone -->
+        <section class="quiz-section" id="quiz-zone">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-tagline">Test Your Skills</span>
+                    <h2 class="section-title">Daily Quiz & Practice Zone</h2>
+                    <div class="section-underline"></div>
+                    <p class="quiz-subtitle reveal-fade">Improve your preparation with daily quizzes, performance tracking, and category-wise practice tests.</p>
+                </div>
+
+                <div class="quiz-container">
+                    <!-- Sidebar: Performance & History -->
+                    <div class="quiz-sidebar reveal-slide-left">
+                        <!-- Stat Card -->
+                        <div class="quiz-glass-card">
+                            <h3 class="sidebar-card-title"><i class="fa-solid fa-chart-line gold-text"></i> Performance</h3>
+                            <div class="quiz-stats-grid">
+                                <div class="quiz-stat-item">
+                                    <span class="quiz-stat-label">Attempted</span>
+                                    <span class="quiz-stat-val" id="stats-attempted">0</span>
+                                </div>
+                                <div class="quiz-stat-item">
+                                    <span class="quiz-stat-label">Avg. Accuracy</span>
+                                    <span class="quiz-stat-val" id="stats-accuracy">0%</span>
+                                </div>
+                                <div class="quiz-stat-item">
+                                    <span class="quiz-stat-label">Best Score</span>
+                                    <span class="quiz-stat-val" id="stats-best">0/10</span>
+                                </div>
+                                <div class="quiz-stat-item">
+                                    <span class="quiz-stat-label">Latest Score</span>
+                                    <span class="quiz-stat-val" id="stats-latest">-</span>
+                                </div>
+                            </div>
+                            
+                            <!-- Mini Circular Progress Chart (SVG) -->
+                            <div class="stats-chart-container">
+                                <svg class="circular-chart" viewBox="0 0 36 36">
+                                    <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                    <path class="circle" id="stats-chart-fill" stroke-dasharray="0, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" stroke-linecap="round" />
+                                    <text x="18" y="20.35" class="percentage" id="stats-chart-text">0%</text>
+                                </svg>
+                                <span class="chart-label">Overall Accuracy</span>
+                            </div>
+                        </div>
+
+                        <!-- Leaderboard Card -->
+                        <div class="quiz-glass-card">
+                            <h3 class="sidebar-card-title"><i class="fa-solid fa-trophy gold-text"></i> Leaderboard</h3>
+                            <div class="leaderboard-list" id="leaderboard-list">
+                                <div class="leaderboard-row first-rank">
+                                    <span class="lead-rank"><i class="fa-solid fa-crown"></i> 1</span>
+                                    <span class="lead-name">Rohan Sharma</span>
+                                    <span class="lead-score">10/10</span>
+                                </div>
+                                <div class="leaderboard-row second-rank">
+                                    <span class="lead-rank">2</span>
+                                    <span class="lead-name">Sneha Patel</span>
+                                    <span class="lead-score">9/10</span>
+                                </div>
+                                <div class="leaderboard-row third-rank">
+                                    <span class="lead-rank">3</span>
+                                    <span class="lead-name">Amit Singh</span>
+                                    <span class="lead-score">9/10</span>
+                                </div>
+                                <div class="leaderboard-row">
+                                    <span class="lead-rank">4</span>
+                                    <span class="lead-name">Priya Verma</span>
+                                    <span class="lead-score">8/10</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- History Card -->
+                        <div class="quiz-glass-card">
+                            <h3 class="sidebar-card-title"><i class="fa-solid fa-history gold-text"></i> Quiz History</h3>
+                            <div class="quiz-history-list-wrapper" id="quiz-history-list">
+                                <p class="no-history-msg">No quizzes attempted yet.</p>
+                            </div>
+                            <button class="btn btn-secondary btn-clear-history hidden" id="btn-clear-history">Clear History</button>
+                        </div>
+                    </div>
+
+                    <!-- Main Content Panel -->
+                    <div class="quiz-main-panel reveal-slide-right">
+                        
+                        <!-- VIEW 1: Quiz Categories List -->
+                        <div class="quiz-view-screen" id="view-quiz-categories">
+                            <h3 class="panel-subtitle">Select a Category to Start Quiz</h3>
+                            <div class="quiz-categories-grid">
+                                <!-- Category 1: Current Affairs -->
+                                <div class="quiz-cat-card" data-cat-id="24" data-cat-name="Current Affairs">
+                                    <div class="cat-card-icon"><i class="fa-solid fa-newspaper"></i></div>
+                                    <h4 class="cat-card-title">Current Affairs</h4>
+                                    <p class="cat-card-desc">National/international news, events, summits, science developments, and policy updates.</p>
+                                    <button class="btn btn-secondary cat-start-btn">Start Quiz</button>
+                                </div>
+                                <!-- Category 2: General Knowledge (GK) -->
+                                <div class="quiz-cat-card" data-cat-id="9" data-cat-name="General Knowledge">
+                                    <div class="cat-card-icon"><i class="fa-solid fa-earth-asia"></i></div>
+                                    <h4 class="cat-card-title">General Knowledge</h4>
+                                    <p class="cat-card-desc">Geography, world history, monuments, static GK, and general international awareness.</p>
+                                    <button class="btn btn-secondary cat-start-btn">Start Quiz</button>
+                                </div>
+                                <!-- Category 3: General Studies (GS) -->
+                                <div class="quiz-cat-card" data-cat-id="17" data-cat-name="General Studies">
+                                    <div class="cat-card-icon"><i class="fa-solid fa-book-open-reader"></i></div>
+                                    <h4 class="cat-card-title">General Studies</h4>
+                                    <p class="cat-card-desc">Basic science, environmental ecology, social studies, economics, and constitutional systems.</p>
+                                    <button class="btn btn-secondary cat-start-btn">Start Quiz</button>
+                                </div>
+                                <!-- Category 4: UPSC -->
+                                <div class="quiz-cat-card" data-cat-id="23" data-cat-name="UPSC">
+                                    <div class="cat-card-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                                    <h4 class="cat-card-title">UPSC Preparation</h4>
+                                    <p class="cat-card-desc">Civil services exams style history, polity, Indian geography, public policy, and constitution.</p>
+                                    <button class="btn btn-secondary cat-start-btn">Start Quiz</button>
+                                </div>
+                                <!-- Category 5: SSC -->
+                                <div class="quiz-cat-card" data-cat-id="22" data-cat-name="SSC">
+                                    <div class="cat-card-icon"><i class="fa-solid fa-building-columns"></i></div>
+                                    <h4 class="cat-card-title">SSC CGL / CHSL</h4>
+                                    <p class="cat-card-desc">General awareness, geography, history, and scientific aptitude questions tailored for SSC.</p>
+                                    <button class="btn btn-secondary cat-start-btn">Start Quiz</button>
+                                </div>
+                                <!-- Category 6: Banking -->
+                                <div class="quiz-cat-card" data-cat-id="19" data-cat-name="Banking">
+                                    <div class="cat-card-icon"><i class="fa-solid fa-landmark"></i></div>
+                                    <h4 class="cat-card-title">Banking & Finance</h4>
+                                    <p class="cat-card-desc">Quantitative skills, economic principles, mathematical sciences, and banking awareness.</p>
+                                    <button class="btn btn-secondary cat-start-btn">Start Quiz</button>
+                                </div>
+                                <!-- Category 7: Railway -->
+                                <div class="quiz-cat-card" data-cat-id="28" data-cat-name="Railway">
+                                    <div class="cat-card-icon"><i class="fa-solid fa-train"></i></div>
+                                    <h4 class="cat-card-title">Railway (RRB)</h4>
+                                    <p class="cat-card-desc">General science, industrial mechanics, vehicles, geography, and static railways GK.</p>
+                                    <button class="btn btn-secondary cat-start-btn">Start Quiz</button>
+                                </div>
+                                <!-- Category 8: State PCS -->
+                                <div class="quiz-cat-card" data-cat-id="24" data-cat-name="State PCS">
+                                    <div class="cat-card-icon"><i class="fa-solid fa-map"></i></div>
+                                    <h4 class="cat-card-title">State PCS</h4>
+                                    <p class="cat-card-desc">State civil services administrative policy, politics, historical events, and civic governance.</p>
+                                    <button class="btn btn-secondary cat-start-btn">Start Quiz</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- VIEW 1.5: Language Selection Screen -->
+                        <div class="quiz-view-screen hidden" id="view-quiz-language" style="display:none;">
+                            <div class="quiz-glass-card text-center language-selection-card">
+                                <h3 class="panel-subtitle" id="lang-panel-title">Choose Your Quiz Language</h3>
+                                <p class="panel-desc" id="lang-panel-desc">Select the language in which you want to attempt the quiz.</p>
+                                
+                                <div class="language-options-grid">
+                                    <!-- Option 1: English -->
+                                    <div class="lang-option-card" data-lang="en">
+                                        <div class="lang-card-icon"><i class="fa-solid fa-font"></i></div>
+                                        <h4 class="lang-card-title">English</h4>
+                                        <span class="lang-card-check"><i class="fa-regular fa-circle"></i></span>
+                                    </div>
+                                    
+                                    <!-- Option 2: Hindi -->
+                                    <div class="lang-option-card" data-lang="hi">
+                                        <div class="lang-card-icon"><span>अ</span></div>
+                                        <h4 class="lang-card-title">हिन्दी (Hindi)</h4>
+                                        <span class="lang-card-check"><i class="fa-regular fa-circle"></i></span>
+                                    </div>
+
+                                    <!-- Option 3: Bilingual -->
+                                    <div class="lang-option-card" data-lang="bilingual">
+                                        <div class="lang-card-icon"><i class="fa-solid fa-language"></i></div>
+                                        <h4 class="lang-card-title">Bilingual / दुभाषी</h4>
+                                        <span class="lang-card-check"><i class="fa-regular fa-circle"></i></span>
+                                    </div>
+                                </div>
+
+                                <div class="lang-validation-error hidden" id="lang-validation-msg" style="display:none;">
+                                    <i class="fa-solid fa-triangle-exclamation"></i>
+                                    <span id="lang-validation-text">Please select a language to continue. / कृपया आगे बढ़ने के लिए भाषा चुनें।</span>
+                                </div>
+
+                                <div class="lang-actions">
+                                    <button class="btn btn-secondary" id="btn-lang-back"><i class="fa-solid fa-arrow-left"></i> Back</button>
+                                    <button class="btn btn-primary" id="btn-lang-continue">Continue <i class="fa-solid fa-arrow-right"></i></button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- VIEW 2: Loading screen -->
+                        <div class="quiz-view-screen hidden" id="view-quiz-loading" style="display:none;">
+                            <div class="quiz-panel-message text-center">
+                                <div class="loader-spinner"><i class="fa-solid fa-circle-notch fa-spin"></i></div>
+                                <h3>Connecting to Open Trivia Database...</h3>
+                                <p>Fetching 10 fresh multiple-choice questions for you.</p>
+                            </div>
+                        </div>
+
+                        <!-- VIEW 3: Error / Connection Failure Screen -->
+                        <div class="quiz-view-screen hidden" id="view-quiz-error" style="display:none;">
+                            <div class="quiz-panel-message text-center">
+                                <div class="message-icon error-icon"><i class="fa-solid fa-circle-xmark"></i></div>
+                                <h3>API Connection Timed Out</h3>
+                                <p id="quiz-error-detail">We could not retrieve online quiz questions. The server might be rate-limiting requests.</p>
+                                <div class="message-buttons">
+                                    <button class="btn btn-primary" id="btn-quiz-retry"><i class="fa-solid fa-arrows-rotate"></i> Retry Connection</button>
+                                    <button class="btn btn-secondary" id="btn-quiz-fallback"><i class="fa-solid fa-power-off"></i> Start Curated Offline Quiz</button>
+                                    <button class="btn btn-secondary" id="btn-quiz-back-error">Back to Categories</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- VIEW 4: Active Question Player -->
+                        <div class="quiz-view-screen hidden" id="view-quiz-player" style="display:none;">
+                            <div class="quiz-player-glass">
+                                <!-- Info Header -->
+                                <div class="player-hud">
+                                    <div class="hud-left">
+                                        <span class="hud-category-badge" id="hud-category">General Knowledge</span>
+                                        <span class="hud-progress-text" id="hud-progress">Question 1 of 10</span>
+                                    </div>
+                                    <div class="hud-right">
+                                        <div class="hud-timer" id="hud-timer">
+                                            <i class="fa-regular fa-clock"></i> <span id="hud-timer-time">10:00</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- Progress Indicator Bar -->
+                                <div class="hud-progress-bar">
+                                    <div class="hud-progress-fill" id="hud-progress-fill" style="width: 10%;"></div>
+                                </div>
+
+                                <!-- Question Text -->
+                                <div class="hud-question-box">
+                                    <h3 id="player-question-text">Loading question content...</h3>
+                                </div>
+
+                                <!-- Options Container -->
+                                <div class="player-options-grid" id="player-options-container">
+                                    <!-- Options generated dynamically -->
+                                    <button class="player-option-btn">
+                                        <span class="option-marker">A</span>
+                                        <span class="option-text">Option Text A</span>
+                                        <span class="option-check"><i class="fa-regular fa-circle"></i></span>
+                                    </button>
+                                    <button class="player-option-btn">
+                                        <span class="option-marker">B</span>
+                                        <span class="option-text">Option Text B</span>
+                                        <span class="option-check"><i class="fa-regular fa-circle"></i></span>
+                                    </button>
+                                    <button class="player-option-btn">
+                                        <span class="option-marker">C</span>
+                                        <span class="option-text">Option Text C</span>
+                                        <span class="option-check"><i class="fa-regular fa-circle"></i></span>
+                                    </button>
+                                    <button class="player-option-btn">
+                                        <span class="option-marker">D</span>
+                                        <span class="option-text">Option Text D</span>
+                                        <span class="option-check"><i class="fa-regular fa-circle"></i></span>
+                                    </button>
+                                </div>
+
+                                <!-- Navigation actions -->
+                                <div class="player-actions">
+                                    <button class="btn btn-secondary" id="btn-player-prev"><i class="fa-solid fa-chevron-left"></i> Previous</button>
+                                    <button class="btn btn-danger-link" id="btn-player-quit"><i class="fa-solid fa-xmark"></i> Quit Quiz</button>
+                                    <div>
+                                        <button class="btn btn-secondary" id="btn-player-next">Next <i class="fa-solid fa-chevron-right"></i></button>
+                                        <button class="btn btn-primary hidden" id="btn-player-submit" style="display:none;">Submit Quiz <i class="fa-solid fa-check-double"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- VIEW 5: Score Result Panel -->
+                        <div class="quiz-view-screen hidden" id="view-quiz-result" style="display:none;">
+                            <div class="quiz-result-glass text-center">
+                                <div class="result-badge-icon" id="result-badge"><i class="fa-solid fa-medal gold-text"></i></div>
+                                <h3 class="result-grade" id="result-grade-title">Excellent Performance!</h3>
+                                <p class="result-feedback" id="result-feedback-desc">You've mastered this quiz category with flying colors.</p>
+                                
+                                <div class="result-summary-box">
+                                    <div class="result-big-score" id="result-score-ratio">9/10</div>
+                                    <div class="result-score-percent" id="result-score-percent">90% Score</div>
+                                </div>
+
+                                <div class="result-breakdown-grid">
+                                    <div class="breakdown-card">
+                                        <span class="breakdown-label">Total Questions</span>
+                                        <span class="breakdown-val" id="res-val-total">10</span>
+                                    </div>
+                                    <div class="breakdown-card">
+                                        <span class="breakdown-label">Correct Answers</span>
+                                        <span class="breakdown-val correct-color" id="res-val-correct">9</span>
+                                    </div>
+                                    <div class="breakdown-card">
+                                        <span class="breakdown-label">Wrong Answers</span>
+                                        <span class="breakdown-val wrong-color" id="res-val-wrong">1</span>
+                                    </div>
+                                    <div class="breakdown-card">
+                                        <span class="breakdown-label">Unattempted</span>
+                                        <span class="breakdown-val muted-color" id="res-val-unattempted">0</span>
+                                    </div>
+                                    <div class="breakdown-card">
+                                        <span class="breakdown-label">Time Taken</span>
+                                        <span class="breakdown-val" id="res-val-time">04:22</span>
+                                    </div>
+                                    <div class="breakdown-card">
+                                        <span class="breakdown-label">Accuracy Rate</span>
+                                        <span class="breakdown-val" id="res-val-accuracy">90%</span>
+                                    </div>
+                                </div>
+
+                                <div class="result-actions">
+                                    <button class="btn btn-primary" id="btn-result-another"><i class="fa-solid fa-repeat"></i> Try Another Quiz</button>
+                                    <button class="btn btn-secondary" id="btn-result-home"><i class="fa-solid fa-house"></i> Quiz Home</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3: Book Showcase -->
+        <section class="books-section" id="books">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-tagline">Explore Collections</span>
+                    <h2 class="section-title">Our Book Collection</h2>
+                    <div class="section-underline"></div>
+                </div>
+                
+                <!-- Search & Filters Container -->
+                <div class="filters-container reveal-fade">
+                    <div class="search-box-wrapper">
+                        <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                        <input type="text" id="search-input" placeholder="Search by book name, author, or category...">
+                        <button id="search-clear-btn" class="search-clear-btn"><i class="fa-solid fa-xmark"></i></button>
+                    </div>
+                    
+                    <div class="category-filters" id="category-filters">
+                        <button class="filter-btn active" data-filter="all">All Books</button>
+                        <button class="filter-btn" data-filter="Programming">Programming</button>
+                        <button class="filter-btn" data-filter="Artificial Intelligence">AI</button>
+                        <button class="filter-btn" data-filter="Data Science">Data Science</button>
+                        <button class="filter-btn" data-filter="UPSC">UPSC</button>
+                        <button class="filter-btn" data-filter="JEE">JEE</button>
+                        <button class="filter-btn" data-filter="NEET">NEET</button>
+                        <button class="filter-btn" data-filter="SSC">SSC</button>
+                        <button class="filter-btn" data-filter="Literature">Literature</button>
+                        <button class="filter-btn" data-filter="History">History</button>
+                        <button class="filter-btn" data-filter="Business">Business</button>
+                        <button class="filter-btn" data-filter="Self Development">Self Dev</button>
+                    </div>
+                </div>
+
+                <!-- Book Cards Grid -->
+                <div class="books-grid" id="books-grid">
+                    <!-- Book 1 -->
+                    <div class="book-card reveal-slide-up" data-title="Clean Code" data-author="Robert C. Martin" data-category="Programming">
+                        <div class="book-cover-wrapper">
+                            <div class="book-cover gradient-prog">
+                                <div class="book-spine"></div>
+                                <div class="book-title">Clean Code</div>
+                                <div class="book-author-cover">Robert C. Martin</div>
+                                <div class="book-genre-icon"><i class="fa-solid fa-code"></i></div>
+                            </div>
+                            <span class="book-status status-available">Available</span>
+                        </div>
+                        <div class="book-info">
+                            <span class="book-category">Programming</span>
+                            <h3 class="book-name">Clean Code</h3>
+                            <p class="book-author">By Robert C. Martin</p>
+                        </div>
+                    </div>
+
+                    <!-- Book 2 -->
+                    <div class="book-card reveal-slide-up" data-title="Introduction to Algorithms" data-author="Thomas H. Cormen" data-category="Programming">
+                        <div class="book-cover-wrapper">
+                            <div class="book-cover gradient-prog-alt">
+                                <div class="book-spine"></div>
+                                <div class="book-title">Introduction to Algorithms</div>
+                                <div class="book-author-cover">Thomas H. Cormen</div>
+                                <div class="book-genre-icon"><i class="fa-solid fa-terminal"></i></div>
+                            </div>
+                            <span class="book-status status-available">Available</span>
+                        </div>
+                        <div class="book-info">
+                            <span class="book-category">Programming</span>
+                            <h3 class="book-name">Introduction to Algorithms</h3>
+                            <p class="book-author">By Thomas H. Cormen</p>
+                        </div>
+                    </div>
+
+                    <!-- Book 3 -->
+                    <div class="book-card reveal-slide-up" data-title="Artificial Intelligence: A Modern Approach" data-author="Stuart Russell" data-category="Artificial Intelligence">
+                        <div class="book-cover-wrapper">
+                            <div class="book-cover gradient-ai">
+                                <div class="book-spine"></div>
+                                <div class="book-title">Artificial Intelligence</div>
+                                <div class="book-author-cover">Stuart Russell</div>
+                                <div class="book-genre-icon"><i class="fa-solid fa-brain"></i></div>
+                            </div>
+                            <span class="book-status status-available">Available</span>
+                        </div>
+                        <div class="book-info">
+                            <span class="book-category">Artificial Intelligence</span>
+                            <h3 class="book-name">Artificial Intelligence</h3>
+                            <p class="book-author">By Stuart Russell & Peter Norvig</p>
+                        </div>
+                    </div>
+
+                    <!-- Book 4 -->
+                    <div class="book-card reveal-slide-up" data-title="Deep Learning" data-author="Ian Goodfellow" data-category="Artificial Intelligence">
+                        <div class="book-cover-wrapper">
+                            <div class="book-cover gradient-ai-alt">
+                                <div class="book-spine"></div>
+                                <div class="book-title">Deep Learning</div>
+                                <div class="book-author-cover">Ian Goodfellow</div>
+                                <div class="book-genre-icon"><i class="fa-solid fa-network-wired"></i></div>
+                            </div>
+                            <span class="book-status status-checkedout">Checked Out</span>
+                        </div>
+                        <div class="book-info">
+                            <span class="book-category">Artificial Intelligence</span>
+                            <h3 class="book-name">Deep Learning</h3>
+                            <p class="book-author">By Ian Goodfellow</p>
+                        </div>
+                    </div>
+
+                    <!-- Book 5 -->
+                    <div class="book-card reveal-slide-up" data-title="Python Data Science Handbook" data-author="Jake VanderPlas" data-category="Data Science">
+                        <div class="book-cover-wrapper">
+                            <div class="book-cover gradient-ds">
+                                <div class="book-spine"></div>
+                                <div class="book-title">Python Data Science</div>
+                                <div class="book-author-cover">Jake VanderPlas</div>
+                                <div class="book-genre-icon"><i class="fa-solid fa-chart-line"></i></div>
+                            </div>
+                            <span class="book-status status-available">Available</span>
+                        </div>
+                        <div class="book-info">
+                            <span class="book-category">Data Science</span>
+                            <h3 class="book-name">Python Data Science Handbook</h3>
+                            <p class="book-author">By Jake VanderPlas</p>
+                        </div>
+                    </div>
+
+                    <!-- Book 6 -->
+                    <div class="book-card reveal-slide-up" data-title="History of Modern India" data-author="Bipan Chandra" data-category="History">
+                        <div class="book-cover-wrapper">
+                            <div class="book-cover gradient-hist">
+                                <div class="book-spine"></div>
+                                <div class="book-title">History of Modern India</div>
+                                <div class="book-author-cover">Bipan Chandra</div>
+                                <div class="book-genre-icon"><i class="fa-solid fa-landmark"></i></div>
+                            </div>
+                            <span class="book-status status-available">Available</span>
+                        </div>
+                        <div class="book-info">
+                            <span class="book-category">History</span>
+                            <h3 class="book-name">History of Modern India</h3>
+                            <p class="book-author">By Bipan Chandra</p>
+                        </div>
+                    </div>
+
+                    <!-- Book 7 -->
+                    <div class="book-card reveal-slide-up" data-title="Certificate Physical Geography" data-author="G.C. Leong" data-category="UPSC">
+                        <div class="book-cover-wrapper">
+                            <div class="book-cover gradient-upsc">
+                                <div class="book-spine"></div>
+                                <div class="book-title">Physical Geography</div>
+                                <div class="book-author-cover">G.C. Leong</div>
+                                <div class="book-genre-icon"><i class="fa-solid fa-earth-americas"></i></div>
+                            </div>
+                            <span class="book-status status-available">Available</span>
+                        </div>
+                        <div class="book-info">
+                            <span class="book-category">UPSC Preparation</span>
+                            <h3 class="book-name">Certificate Physical & Human Geography</h3>
+                            <p class="book-author">By G.C. Leong</p>
+                        </div>
+                    </div>
+
+                    <!-- Book 8 -->
+                    <div class="book-card reveal-slide-up" data-title="Quantitative Aptitude" data-author="R.S. Aggarwal" data-category="SSC">
+                        <div class="book-cover-wrapper">
+                            <div class="book-cover gradient-ssc">
+                                <div class="book-spine"></div>
+                                <div class="book-title">Quantitative Aptitude</div>
+                                <div class="book-author-cover">R.S. Aggarwal</div>
+                                <div class="book-genre-icon"><i class="fa-solid fa-calculator"></i></div>
+                            </div>
+                            <span class="book-status status-checkedout">Checked Out</span>
+                        </div>
+                        <div class="book-info">
+                            <span class="book-category">SSC Preparation</span>
+                            <h3 class="book-name">Quantitative Aptitude</h3>
+                            <p class="book-author">By R.S. Aggarwal</p>
+                        </div>
+                    </div>
+
+                    <!-- Book 9 -->
+                    <div class="book-card reveal-slide-up" data-title="The Republic" data-author="Plato" data-category="Literature">
+                        <div class="book-cover-wrapper">
+                            <div class="book-cover gradient-lit">
+                                <div class="book-spine"></div>
+                                <div class="book-title">The Republic</div>
+                                <div class="book-author-cover">Plato</div>
+                                <div class="book-genre-icon"><i class="fa-solid fa-scroll"></i></div>
+                            </div>
+                            <span class="book-status status-available">Available</span>
+                        </div>
+                        <div class="book-info">
+                            <span class="book-category">Literature & Philosophy</span>
+                            <h3 class="book-name">The Republic</h3>
+                            <p class="book-author">By Plato</p>
+                        </div>
+                    </div>
+
+                    <!-- Book 10 -->
+                    <div class="book-card reveal-slide-up" data-title="To Kill a Mockingbird" data-author="Harper Lee" data-category="Literature">
+                        <div class="book-cover-wrapper">
+                            <div class="book-cover gradient-lit-alt">
+                                <div class="book-spine"></div>
+                                <div class="book-title">To Kill a Mockingbird</div>
+                                <div class="book-author-cover">Harper Lee</div>
+                                <div class="book-genre-icon"><i class="fa-solid fa-feather"></i></div>
+                            </div>
+                            <span class="book-status status-available">Available</span>
+                        </div>
+                        <div class="book-info">
+                            <span class="book-category">Literature</span>
+                            <h3 class="book-name">To Kill a Mockingbird</h3>
+                            <p class="book-author">By Harper Lee</p>
+                        </div>
+                    </div>
+
+                    <!-- Book 11 -->
+                    <div class="book-card reveal-slide-up" data-title="The Intelligent Investor" data-author="Benjamin Graham" data-category="Business">
+                        <div class="book-cover-wrapper">
+                            <div class="book-cover gradient-biz">
+                                <div class="book-spine"></div>
+                                <div class="book-title">The Intelligent Investor</div>
+                                <div class="book-author-cover">Benjamin Graham</div>
+                                <div class="book-genre-icon"><i class="fa-solid fa-coins"></i></div>
+                            </div>
+                            <span class="book-status status-available">Available</span>
+                        </div>
+                        <div class="book-info">
+                            <span class="book-category">Business & Finance</span>
+                            <h3 class="book-name">The Intelligent Investor</h3>
+                            <p class="book-author">By Benjamin Graham</p>
+                        </div>
+                    </div>
+
+                    <!-- Book 12 -->
+                    <div class="book-card reveal-slide-up" data-title="Atomic Habits" data-author="James Clear" data-category="Self Development">
+                        <div class="book-cover-wrapper">
+                            <div class="book-cover gradient-self">
+                                <div class="book-spine"></div>
+                                <div class="book-title">Atomic Habits</div>
+                                <div class="book-author-cover">James Clear</div>
+                                <div class="book-genre-icon"><i class="fa-solid fa-arrows-to-dot"></i></div>
+                            </div>
+                            <span class="book-status status-available">Available</span>
+                        </div>
+                        <div class="book-info">
+                            <span class="book-category">Self Development</span>
+                            <h3 class="book-name">Atomic Habits</h3>
+                            <p class="book-author">By James Clear</p>
+                        </div>
+                    </div>
+
+                    <!-- Book 13 (JEE) -->
+                    <div class="book-card reveal-slide-up" data-title="Concepts of Physics" data-author="H.C. Verma" data-category="JEE">
+                        <div class="book-cover-wrapper">
+                            <div class="book-cover gradient-jee">
+                                <div class="book-spine"></div>
+                                <div class="book-title">Concepts of Physics</div>
+                                <div class="book-author-cover">H.C. Verma</div>
+                                <div class="book-genre-icon"><i class="fa-solid fa-atom"></i></div>
+                            </div>
+                            <span class="book-status status-available">Available</span>
+                        </div>
+                        <div class="book-info">
+                            <span class="book-category">JEE Preparation</span>
+                            <h3 class="book-name">Concepts of Physics (Vol 1)</h3>
+                            <p class="book-author">By H.C. Verma</p>
+                        </div>
+                    </div>
+
+                    <!-- Book 14 (JEE) -->
+                    <div class="book-card reveal-slide-up" data-title="Problems in General Physics" data-author="I.E. Irodov" data-category="JEE">
+                        <div class="book-cover-wrapper">
+                            <div class="book-cover gradient-jee">
+                                <div class="book-spine"></div>
+                                <div class="book-title">Problems in General Physics</div>
+                                <div class="book-author-cover">I.E. Irodov</div>
+                                <div class="book-genre-icon"><i class="fa-solid fa-compass-drafting"></i></div>
+                            </div>
+                            <span class="book-status status-available">Available</span>
+                        </div>
+                        <div class="book-info">
+                            <span class="book-category">JEE Advanced</span>
+                            <h3 class="book-name">Problems in General Physics</h3>
+                            <p class="book-author">By I.E. Irodov</p>
+                        </div>
+                    </div>
+
+                    <!-- Book 15 (NEET) -->
+                    <div class="book-card reveal-slide-up" data-title="Biology for NEET" data-author="Trueman" data-category="NEET">
+                        <div class="book-cover-wrapper">
+                            <div class="book-cover gradient-neet">
+                                <div class="book-spine"></div>
+                                <div class="book-title">Biology for NEET</div>
+                                <div class="book-author-cover">Trueman</div>
+                                <div class="book-genre-icon"><i class="fa-solid fa-dna"></i></div>
+                            </div>
+                            <span class="book-status status-available">Available</span>
+                        </div>
+                        <div class="book-info">
+                            <span class="book-category">NEET Biology</span>
+                            <h3 class="book-name">Biology for NEET (Vol 1)</h3>
+                            <p class="book-author">By Trueman</p>
+                        </div>
+                    </div>
+
+                    <!-- Book 16 (NEET) -->
+                    <div class="book-card reveal-slide-up" data-title="Organic Chemistry for NEET" data-author="MS Chouhan" data-category="NEET">
+                        <div class="book-cover-wrapper">
+                            <div class="book-cover gradient-neet">
+                                <div class="book-spine"></div>
+                                <div class="book-title">Organic Chemistry</div>
+                                <div class="book-author-cover">MS Chouhan</div>
+                                <div class="book-genre-icon"><i class="fa-solid fa-flask-vial"></i></div>
+                            </div>
+                            <span class="book-status status-checkedout">Checked Out</span>
+                        </div>
+                        <div class="book-info">
+                            <span class="book-category">NEET Chemistry</span>
+                            <h3 class="book-name">Organic Chemistry for NEET</h3>
+                            <p class="book-author">By MS Chouhan</p>
+                        </div>
+                    </div>
+
+                    <!-- Book 17 (SSC) -->
+                    <div class="book-card reveal-slide-up" data-title="General Studies for SSC" data-author="Rakesh Yadav" data-category="SSC">
+                        <div class="book-cover-wrapper">
+                            <div class="book-cover gradient-ssc">
+                                <div class="book-spine"></div>
+                                <div class="book-title">General Studies</div>
+                                <div class="book-author-cover">Rakesh Yadav</div>
+                                <div class="book-genre-icon"><i class="fa-solid fa-clipboard-question"></i></div>
+                            </div>
+                            <span class="book-status status-available">Available</span>
+                        </div>
+                        <div class="book-info">
+                            <span class="book-category">SSC General Studies</span>
+                            <h3 class="book-name">General Studies for SSC Exams</h3>
+                            <p class="book-author">By Rakesh Yadav</p>
+                        </div>
+                    </div>
+
+                    <!-- Book 18 (SSC) -->
+                    <div class="book-card reveal-slide-up" data-title="English for Competitive Exams" data-author="S.P. Bakshi" data-category="SSC">
+                        <div class="book-cover-wrapper">
+                            <div class="book-cover gradient-ssc">
+                                <div class="book-spine"></div>
+                                <div class="book-title">English for Exams</div>
+                                <div class="book-author-cover">S.P. Bakshi</div>
+                                <div class="book-genre-icon"><i class="fa-solid fa-language"></i></div>
+                            </div>
+                            <span class="book-status status-available">Available</span>
+                        </div>
+                        <div class="book-info">
+                            <span class="book-category">SSC English</span>
+                            <h3 class="book-name">English for Competitive Exams</h3>
+                            <p class="book-author">By S.P. Bakshi</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- No Results Alert -->
+                <div class="no-results" id="no-results">
+                    <i class="fa-solid fa-book-open-reader"></i>
+                    <h3>No books match your criteria</h3>
+                    <p>Try refining your search text or switching categories.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section: FAQ -->
+        <section class="faq-section" id="faq">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-tagline">Common Queries</span>
+                    <h2 class="section-title">Frequently Asked Questions</h2>
+                    <div class="section-underline"></div>
+                    <p class="reveal-fade" style="margin-top: 15px; color: var(--text-light-secondary); max-width: 600px; margin-left: auto; margin-right: auto; font-size: 0.95rem;">
+                        Find answers to the most common questions about Gyan Library and its facilities.
+                    </p>
+                </div>
+
+                <div class="faq-accordion-container reveal-slide-up">
+                    <!-- FAQ Item 1 -->
+                    <div class="faq-item">
+                        <button class="faq-header" aria-expanded="false">
+                            <span>What are the library timings?</span>
+                            <i class="fa-solid fa-chevron-down faq-icon"></i>
+                        </button>
+                        <div class="faq-body">
+                            <div class="faq-content">
+                                <p>Gyan Library is open 24×7 for registered members.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 2 -->
+                    <div class="faq-item">
+                        <button class="faq-header" aria-expanded="false">
+                            <span>Is WiFi available in the library?</span>
+                            <i class="fa-solid fa-chevron-down faq-icon"></i>
+                        </button>
+                        <div class="faq-body">
+                            <div class="faq-content">
+                                <p>Yes, high-speed WiFi is available for all members.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 3 -->
+                    <div class="faq-item">
+                        <button class="faq-header" aria-expanded="false">
+                            <span>How can I become a member?</span>
+                            <i class="fa-solid fa-chevron-down faq-icon"></i>
+                        </button>
+                        <div class="faq-body">
+                            <div class="faq-content">
+                                <p>You can register by choosing a suitable plan.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 4 -->
+                    <div class="faq-item">
+                        <button class="faq-header" aria-expanded="false">
+                            <span>Are personal lockers available?</span>
+                            <i class="fa-solid fa-chevron-down faq-icon"></i>
+                        </button>
+                        <div class="faq-body">
+                            <div class="faq-content">
+                                <p>No, lockers are not available at the moment.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 5 -->
+                    <div class="faq-item">
+                        <button class="faq-header" aria-expanded="false">
+                            <span>Can I book a dedicated study cabin?</span>
+                            <i class="fa-solid fa-chevron-down faq-icon"></i>
+                        </button>
+                        <div class="faq-body">
+                            <div class="faq-content">
+                                <p>Yes, dedicated study cabins are available for focused study sessions.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 6 -->
+                    <div class="faq-item">
+                        <button class="faq-header" aria-expanded="false">
+                            <span>Does the library provide competitive exam study materials?</span>
+                            <i class="fa-solid fa-chevron-down faq-icon"></i>
+                        </button>
+                        <div class="faq-body">
+                            <div class="faq-content">
+                                <p>Yes, study materials for UPSC, SSC, Banking, Railway, and other competitive exams are available.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 7 -->
+                    <div class="faq-item">
+                        <button class="faq-header" aria-expanded="false">
+                            <span>Is CCTV security available?</span>
+                            <i class="fa-solid fa-chevron-down faq-icon"></i>
+                        </button>
+                        <div class="faq-body">
+                            <div class="faq-content">
+                                <p>Yes, the library is monitored through CCTV for safety and security.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 4: Contact Us -->
+        <section class="contact-section" id="contact">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-tagline">Get In Touch</span>
+                    <h2 class="section-title">Contact Gyan Library</h2>
+                    <div class="section-underline"></div>
+                </div>
+                
+                <div class="contact-wrapper">
+                    <!-- Left Side: Contact Information -->
+                    <div class="contact-info-panel reveal-slide-left">
+                        <div class="contact-info-bg"></div>
+                        <div class="contact-info-content">
+                            <h3 class="contact-info-title">Gyan Library</h3>
+                            <p class="contact-info-desc">We are always ready to welcome you. Visit us to check out our premises or contact us for seats booking and locker registration.</p>
+                            
+                            <div class="contact-detail-list">
+                                <div class="contact-detail-item">
+                                    <div class="detail-icon"><i class="fa-solid fa-map-location-dot"></i></div>
+                                    <div class="detail-text">
+                                        <h4>Address</h4>
+                                        <p>Near Police Station, Rudhauli,<br> Basti-272151, Uttar Pradesh</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="contact-detail-item">
+                                    <div class="detail-icon"><i class="fa-solid fa-phone-volume"></i></div>
+                                    <div class="detail-text">
+                                        <h4>Phone Number</h4>
+                                        <p><a href="tel:+919876543210">+91 7007088100</a></p>
+                                    </div>
+                                </div>
+                                
+                                <div class="contact-detail-item">
+                                    <div class="detail-icon"><i class="fa-solid fa-envelope-open-text"></i></div>
+                                    <div class="detail-text">
+                                        <h4>Email Address</h4>
+                                        <p><a href="mailto:info@gyanlibrary.com">ayushvikramsingh55@gmail.com</a></p>
+                                    </div>
+                                </div>
+                                
+                                <div class="contact-detail-item">
+                                    <div class="detail-icon"><i class="fa-solid fa-business-time"></i></div>
+                                    <div class="detail-text">
+                                        <h4>Working Hours</h4>
+                                        <p><strong>Study Hall:</strong> 24 hours (Mon - Sun)</p>
+                                        <p><strong>Office Desk:</strong> 9:00 AM - 8:00 PM</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right Side: Contact Form -->
+                    <div class="contact-form-panel reveal-slide-right">
+                        <form id="contact-form" novalidate>
+                            <h3 class="form-title">Send a Message</h3>
+                            
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="full-name">Full Name <span class="required">*</span></label>
+                                    <div class="input-wrapper">
+                                        <i class="fa-regular fa-user"></i>
+                                        <input type="text" id="full-name" name="name" placeholder="John Doe" required>
+                                    </div>
+                                    <span class="error-msg" id="name-error">Please enter your full name</span>
+                                </div>
+                            </div>
+                            
+                            <div class="form-row split">
+                                <div class="form-group">
+                                    <label for="email-address">Email Address <span class="required">*</span></label>
+                                    <div class="input-wrapper">
+                                        <i class="fa-regular fa-envelope"></i>
+                                        <input type="email" id="email-address" name="email" placeholder="john@example.com" required>
+                                    </div>
+                                    <span class="error-msg" id="email-error">Please enter a valid email address</span>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="phone-number">Phone Number <span class="required">*</span></label>
+                                    <div class="input-wrapper">
+                                        <i class="fa-solid fa-mobile-screen-button"></i>
+                                        <input type="tel" id="phone-number" name="phone" placeholder="xxx-xxx-3210" required>
+                                    </div>
+                                    <span class="error-msg" id="phone-error">Please enter a 10-digit mobile number</span>
+                                </div>
+                            </div>
+                            
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="form-subject">Subject <span class="required">*</span></label>
+                                    <div class="input-wrapper">
+                                        <i class="fa-solid fa-pen-clip"></i>
+                                        <input type="text" id="form-subject" name="subject" placeholder="Locker reservation, Seat inquiry..." required>
+                                    </div>
+                                    <span class="error-msg" id="subject-error">Please enter a subject</span>
+                                </div>
+                            </div>
+                            
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="form-message">Message <span class="required">*</span></label>
+                                    <div class="input-wrapper align-start">
+                                        <i class="fa-regular fa-comment-dots text-icon"></i>
+                                        <textarea id="form-message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+                                    </div>
+                                    <span class="error-msg" id="message-error">Please enter your message</span>
+                                </div>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary btn-submit" id="btn-submit">
+                                <span>Send Message</span>
+                                <i class="fa-solid fa-paper-plane"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-col brand-col">
+                <a href="#home" class="footer-logo">
+                    <i class="fa-solid fa-book-open gold-text"></i> Gyan <span class="gold-text">Library</span>
+                </a>
+                <p class="brand-desc">
+                    Gyan Library is premium, peaceful, and modern educational infrastructure. Empowering competitive exam aspirants and enthusiastic readers with global learning resources.
+                </p>
+                <div class="social-links">
+                    <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#details">Why Choose Us</a></li>
+                    <li><a href="#gallery">Library Gallery</a></li>
+                    <li><a href="#books">Book Catalog</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-col">
+                <h3>Contact Info</h3>
+                <ul class="footer-contact">
+                    <li>
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>Ward No. 7, Nagar Panchayat, Purani Tahseel, Shanti Nagar, Near Police Station, Rudhauli, Basti-272151, Uttar Pradesh</span>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-phone"></i>
+                        <span>+91 7007088100</span>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>ayushvikramsingh55@gmail.com</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="container footer-bottom-flex">
+                <p>&copy; 2025 Gyan Library. All Rights Reserved.</p>
+                <p>Designed with <i class="fa-solid fa-heart gold-text"></i> for Excellence.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Gallery Lightbox Modal -->
+    <div class="lightbox-overlay" id="lightbox-overlay" role="dialog" aria-modal="true" aria-label="Image Lightbox">
+        <button class="lightbox-close" id="lightbox-close" aria-label="Close Lightbox">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+        <button class="lightbox-nav lightbox-prev" id="lightbox-prev" aria-label="Previous Image">
+            <i class="fa-solid fa-chevron-left"></i>
+        </button>
+        <button class="lightbox-nav lightbox-next" id="lightbox-next" aria-label="Next Image">
+            <i class="fa-solid fa-chevron-right"></i>
+        </button>
+        <div class="lightbox-content">
+            <div class="lightbox-img-wrapper">
+                <img src="" alt="" id="lightbox-img" class="lightbox-img">
+                <div class="lightbox-spinner" id="lightbox-spinner">
+                    <i class="fa-solid fa-circle-notch fa-spin"></i>
+                </div>
+            </div>
+            <div class="lightbox-footer">
+                <p class="lightbox-caption" id="lightbox-caption"></p>
+                <span class="lightbox-counter" id="lightbox-counter">1 / 5</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Custom Success Dialog Modal -->
+    <div class="modal-overlay" id="success-modal">
+        <div class="modal-card">
+            <div class="modal-icon-wrapper">
+                <i class="fa-solid fa-circle-check"></i>
+            </div>
+            <h3 class="modal-title">Message Sent!</h3>
+            <p class="modal-message">Thank you, <strong id="success-user-name">User</strong>. We have received your inquiry. Our support representative will contact you shortly.</p>
+            <button class="btn btn-primary btn-modal-close" id="btn-modal-close">Close</button>
+        </div>
+    </div>
+
+    <!-- Auth Modal (Sign In & Sign Up) -->
+    <div class="modal-overlay" id="signin-modal">
+        <div class="modal-card signin-card">
+            <button class="close-modal-x" id="close-signin-x"><i class="fa-solid fa-xmark"></i></button>
+            
+            <!-- Sign In Form View -->
+            <div id="signin-view">
+                <h3 class="modal-title"><i class="fa-solid fa-key gold-text"></i> Sign In to Gyan Library</h3>
+                <p class="signin-subtext">Access your personal locker and digital library subscription portal.</p>
+                <form id="signin-form" novalidate>
+                    <div class="form-group">
+                        <label for="signin-card-id">Locker/Library Card ID</label>
+                        <div class="input-wrapper">
+                            <i class="fa-solid fa-id-card"></i>
+                            <input type="text" id="signin-card-id" placeholder="GYAN-2025-XXXX" required>
+                        </div>
+                        <span class="error-msg" id="signin-id-error">Please enter a valid Card ID</span>
+                    </div>
+                    <div class="form-group">
+                        <label for="signin-password">Password</label>
+                        <div class="input-wrapper">
+                            <i class="fa-solid fa-lock"></i>
+                            <input type="password" id="signin-password" placeholder="••••••••" required>
+                        </div>
+                        <span class="error-msg" id="signin-pass-error">Please enter your password</span>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-submit">Sign In</button>
+                </form>
+                <p class="auth-toggle-text" style="margin-top: 20px; font-size: 0.85rem; text-align: center; color: var(--text-light-secondary);">
+                    Don't have an account? <a href="#" id="toggle-to-signup" class="gold-text" style="font-weight: 600;">Sign Up Now</a>
+                </p>
+            </div>
+
+            <!-- Sign Up Form View -->
+            <div id="signup-view" class="hidden" style="display: none;">
+                <h3 class="modal-title"><i class="fa-solid fa-user-plus gold-text"></i> Join Gyan Library</h3>
+                <p class="signin-subtext">Register for a digital library card and request silent zone lockers.</p>
+                <form id="signup-form" novalidate>
+                    <div class="form-group">
+                        <label for="signup-name">Full Name <span style="color: #ef5350;">*</span></label>
+                        <div class="input-wrapper">
+                            <i class="fa-regular fa-user"></i>
+                            <input type="text" id="signup-name" placeholder="John Doe" required>
+                        </div>
+                        <span class="error-msg" id="signup-name-error">Please enter your full name</span>
+                    </div>
+                    <div class="form-group">
+                        <label for="signup-email">Email Address <span style="color: #ef5350;">*</span></label>
+                        <div class="input-wrapper">
+                            <i class="fa-regular fa-envelope"></i>
+                            <input type="email" id="signup-email" placeholder="john@example.com" required>
+                        </div>
+                        <span class="error-msg" id="signup-email-error">Please enter a valid email address</span>
+                    </div>
+                    <div class="form-group">
+                        <label for="signup-goal">Study Goal / Aspirant Group <span style="color: #ef5350;">*</span></label>
+                        <div class="input-wrapper select-wrapper">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                            <select id="signup-goal" required>
+                                <option value="" disabled selected>Select your course/goal</option>
+                                <option value="JEE">JEE Aspirant</option>
+                                <option value="NEET">NEET Aspirant</option>
+                                <option value="SSC">SSC Aspirant</option>
+                                <option value="UPSC">UPSC Aspirant</option>
+                                <option value="Student">School/College Student</option>
+                                <option value="Reader">General Reader</option>
+                            </select>
+                        </div>
+                        <span class="error-msg" id="signup-goal-error">Please select your primary study goal</span>
+                    </div>
+                    <div class="form-group">
+                        <label for="signup-password">Create Password <span style="color: #ef5350;">*</span></label>
+                        <div class="input-wrapper">
+                            <i class="fa-solid fa-lock"></i>
+                            <input type="password" id="signup-password" placeholder="••••••••" required>
+                        </div>
+                        <span class="error-msg" id="signup-pass-error">Password must be at least 6 characters</span>
+                    </div>
+                    <div class="form-group">
+                        <label for="signup-confirm">Confirm Password <span style="color: #ef5350;">*</span></label>
+                        <div class="input-wrapper">
+                            <i class="fa-solid fa-lock"></i>
+                            <input type="password" id="signup-confirm" placeholder="••••••••" required>
+                        </div>
+                        <span class="error-msg" id="signup-confirm-error">Passwords do not match</span>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-submit">Sign Up</button>
+                </form>
+                <p class="auth-toggle-text" style="margin-top: 20px; font-size: 0.85rem; text-align: center; color: var(--text-light-secondary);">
+                    Already have an account? <a href="#" id="toggle-to-signin" class="gold-text" style="font-weight: 600;">Sign In Here</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
