@@ -5,7 +5,7 @@
 A modern and responsive Library & Learning Platform designed for students and competitive exam aspirants. The platform provides library information, book showcases, study resources, an interactive quiz system, performance tracking, and a user-friendly experience across all devices.
 
 ## 🌐 Live Demo
-
+https://gyan-library.netlify.app/
 
 ## 🚀 Features
 
