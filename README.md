@@ -183,9 +183,9 @@ BCA Graduate | Java Full Stack Developer
 
 ### Connect With Me
 
-* GitHub:  
-* LinkedIn: 
-* Email:  
+* GitHub:  https://github.com/shivamm2105
+* LinkedIn: https://www.linkedin.com/in/shivamch21/
+* Email: shivamm2105@gmail.com
 
 ---
 
